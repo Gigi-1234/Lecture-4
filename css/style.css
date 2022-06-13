@@ -1,0 +1,105 @@
+body {
+	height: 2000px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+header {
+	background-color: cyan ;
+	padding: 10px;
+	top: 0px;
+	position: fixed;
+	width: 100%;
+	z-index: 20;
+}
+
+.logo {
+	font-size: 40px;
+	display: inline-block;
+	margin-right: 40px;
+	vertical-align: middle;
+
+}
+
+nav {
+	display: inline-block;
+}
+
+li {
+	display: inline-block;
+	margin-right: 20px;
+	vertical-align: middle;
+}
+
+h1 {
+	font-size: 30px;
+	color: yellow;
+}
+.section-1 {
+	margin-top: 70px;
+}
+.section-3 {
+	margin-top: 20px;
+}
+
+.mama {
+    width: 500px;
+	height: 500px;
+	background-color: lightgreen;
+	position: relative;
+}
+.shvili {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+}
+
+.shvili.gogita {
+	background-color: red;
+	top: 0px;
+	left: 0px;
+}
+.shvili.jemali {
+	background-color: yellow;
+	top: 50px;
+	left: 50px;
+	z-index: 10;
+}
+.shvili.shmagi {
+	background-color: purple;
+	top: 75px;
+	left: 75px;
+}
+h3 {
+	font-size: 30px;
+	color: red;
+}
+.deda {
+	display: inline-block;
+	position: relative;
+}
+
+.text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background-color: green;	
+	height: 100px;
+	width: 100px;
+	transform: translate(-50%, -50%);
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
